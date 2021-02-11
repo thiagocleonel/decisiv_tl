@@ -17,3 +17,6 @@ To run the script, just execute `ruby vin_script.rb VIN` on terminal and replace
 I also fixed what I thought was an error on the initial code: on the `calculate_check_digit` we have a mapping to check digits as `map = [0,1,2,3,4,5,6,7,9,10,'X']`
 but on real scenarios we can't have `10` as a check digit... instead, when the remaining value is 10, the check is `X`. So I just replaced that line with 
 `map = [0,1,2,3,4,5,6,7,9,'X']`.
+
+# Bonus Activity
+There's a file on this same repo called `bonus_activity.txt` with answers to bonus activity's questions. As a demonstration of vehicle attributes suggestions, I also implemented that on code, in case check digit is valid.
