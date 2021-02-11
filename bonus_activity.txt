@@ -9,3 +9,5 @@ A: Yeah, using the NHTSA API we could bring several info about the vehicle; besi
 any opportunities in the API contract to allow this when a consumer receives an HTTP 400 - Bad Request response.
 
 A: The response's body could be changed to include the script's suggested VINs.
+The logic and methods presents on the script could be easily placed on a model/service which would
+be used on the API controller's action.
