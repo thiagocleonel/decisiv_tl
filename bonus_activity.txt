@@ -1,0 +1,11 @@
+1 - Are you able to provide any suggested attributes based upon the decoding of the VIN given your newfound knowledge of this identifier?
+
+A: Yeah, using the NHTSA API we could bring several info about the vehicle; besides make, model and year,
+   we could also display number of engine cylinders, manufacturer or primary fuel type for example.
+   The current solution gives an example of how it could work for VINs with valid check digits.
+
+
+2- If we wanted to replicate or enhance behavior in our GET /vins/:vin endpoint in Global Assets how might this script help us? Do you see
+any opportunities in the API contract to allow this when a consumer receives an HTTP 400 - Bad Request response.
+
+A: The response's body could be changed to include the script's suggested VINs.
